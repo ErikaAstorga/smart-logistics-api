@@ -1,0 +1,30 @@
+{
+    "name": "smart-logistics-api",
+    "version": "1.0.0",
+    "description": "Smart Logistics Routing API with Dijkstra",
+    "scripts": {
+        "start:dev": "nest start --watch",
+        "test": "jest",
+        "build": "nest build"
+    },
+    "dependencies": {
+        "@nestjs/common": "^10.0.0",
+        "@nestjs/core": "^11.1.19",
+        "@nestjs/platform-express": "^11.1.19",
+        "@nestjs/swagger": "^11.4.1",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.14.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.8.1",
+        "swagger-ui-express": "^5.0.0"
+    },
+    "devDependencies": {
+        "@nestjs/cli": "^10.0.0",
+        "@nestjs/testing": "^11.1.19",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^20.0.0",
+        "jest": "^30.3.0",
+        "ts-jest": "^29.4.9",
+        "typescript": "^5.1.0"
+    }
+}
